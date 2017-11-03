@@ -1,9 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import YTSearch from 'youtube-api-search';
 
 import SearchBar from './components/search_bar';
 
-const API_KEY = 'AIzaSyDI7t7t1DnLxnYsKb9cjTAT0tXFmoJxkus';
+const API_KEY = 'AIzaSyCt9ZhR2ufdab7Cc0Uak_rcT7goGQVbKT4';
+
+YTSearch({ key: API_KEY, term: 'Our Last Night' }, function(data) {
+  console.log(data);
+});
 
 // Create a new component. This component should produce
 // some HTML
