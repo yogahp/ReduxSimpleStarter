@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import YTSearch from 'youtube-api-search';
 import SearchBar from './components/search_bar';
 import VideoList from './components/video_list';
-const API_KEY = 'AIzaSyCt9ZhR2ufdab7Cc0Uak_rcT7goGQVbKT4';
+const API_KEY = 'AIzaSyCuPtFb6CwVLlhctPWFG5vAFcaB_4QnRKA';
 
 // Create a new component. This component should produce
 // some HTML
